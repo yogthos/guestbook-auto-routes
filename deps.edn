@@ -24,9 +24,11 @@
  io.github.kit-clj/kit-undertow {:mvn/version "1.0.5"}
  io.github.kit-clj/kit-sql-conman {:mvn/version "1.0.5"}
  io.github.kit-clj/kit-sql-migratus {:mvn/version "1.0.2"}
- io.github.kit-clj/kit-postgres    {:mvn/version "1.0.3"}
+ io.github.kit-clj/kit-postgres {:mvn/version "1.0.3"}
  ;; todo
- io.github.kit-clj/route-craft {:git/sha "2c0680452d026855903f1c47e11cc136eb3d50c0"}}
+ io.github.kit-clj/route-craft {:git/sha "2c0680452d026855903f1c47e11cc136eb3d50c0"}
+ selmer/selmer {:mvn/version "1.12.50"}
+ luminus/ring-ttl-session {:mvn/version "0.3.3"}}
  :aliases {:build {:deps {io.github.clojure/tools.build {:git/sha "e3e3532"
                                                          :git/tag "v0.8.0" :git/url "https://github.com/clojure/tools.build.git"}}
                    :ns-default build}
